@@ -1,7 +1,3 @@
-Here's the updated README in English:
-
----
-
 # Cypress Reporters
 
 This project uses Cypress for integration testing and supports multiple reporters. Navigate through the branches below to view the setup and usage of each reporter.
