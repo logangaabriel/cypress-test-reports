@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="4.838" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2024-08-20T17:45:13" tests="0" file="cypress\e2e\npm-test.cy.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="NPM Package Search and Verification" timestamp="2024-08-20T17:45:13" tests="1" time="4.835" failures="0">
+    <testcase name="NPM Package Search and Verification should search for a package and verify its details" time="3.318" classname="should search for a package and verify its details">
+    </testcase>
+  </testsuite>
+</testsuites>
