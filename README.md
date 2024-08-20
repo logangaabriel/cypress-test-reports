@@ -18,12 +18,12 @@ To clone the project and start using the different reporters, follow these steps
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/your-username/your-repository.git
+    git clone [https://github.com/your-username/your-repository.git](https://github.com/logangaabriel/cypress-test-reports.git)
     ```
 
 2. Navigate to the project directory:
     ```bash
-    cd your-repository
+    cd cypress-test-reports
     ```
 
 3. Install the dependencies:
