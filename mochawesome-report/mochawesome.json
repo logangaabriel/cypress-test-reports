@@ -1,0 +1,100 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2024-08-20T16:40:00.108Z",
+    "end": "2024-08-20T16:40:05.415Z",
+    "duration": 5307,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "5e8fafdc-1b97-4b5d-a437-056bb9fac794",
+      "title": "",
+      "fullFile": "cypress\\e2e\\npm-test.cy.js",
+      "file": "cypress\\e2e\\npm-test.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "8f2bb88a-0785-43a9-b0b2-d88d9280363e",
+          "title": "NPM Package Search and Verification",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "should search for a package and verify its details",
+              "fullTitle": "NPM Package Search and Verification should search for a package and verify its details",
+              "timedOut": null,
+              "duration": 3745,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.visit('https://www.npmjs.com/');\ncy.get('input[aria-label=\"Search packages\"]').type('cypress-test-notifications{enter}').should('have.value', 'cypress-test-notifications');\ncy.contains('p', 'A Cypress plugin to send desktop notifications with test summary results.').should('be.visible');\ncy.contains('h3', 'cypress-test-notifications').click();\ncy.get('#package-tab-versions').should('be.visible').click();\ncy.contains('Current Tags').should('be.visible');",
+              "err": {},
+              "uuid": "77cc0c14-800d-48cb-a994-c85a07dd7981",
+              "parentUUID": "8f2bb88a-0785-43a9-b0b2-d88d9280363e",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "77cc0c14-800d-48cb-a994-c85a07dd7981"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 3745,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": null,
+      "version": "6.2.0"
+    }
+  }
+}
