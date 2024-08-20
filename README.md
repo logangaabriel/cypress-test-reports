@@ -61,7 +61,7 @@ npm run test:junit
 
 To run tests with the Allure reporter and generate the report:
 ```bash
-npm run test:allure
+npm test
 ```
 
 To generate and view the report:
